@@ -1,0 +1,117 @@
+.resume {
+    color:  #333;
+}
+
+.name {
+    font-style: oblique;
+    font-weight: bolder;
+    border-width: 2px;
+    border-style: none none solid none;
+    border-color: aqua;
+
+}
+
+.education-seeker {
+    font-weight: bold;
+    border-width: 2px;
+    border-color: aqua;
+    border-style: none none solid none;
+}
+
+.education {
+    font-weight: bold;
+}
+
+.achievements {
+    font-weight: bold;
+}
+
+.period {
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: aquamarine;
+}
+
+.position {
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: aquamarine;
+}
+
+.description {
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: aquamarine;
+}
+
+.discription-2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: aquamarine;
+}
+
+.link {
+    color: #00f;
+    text-decoration: underline;
+}
+
+.link:hover {
+    text-decoration: none;
+}
+
+.link:visited {
+    color: #005;
+    text-decoration: underline;
+}
+
+.skills {
+    font-weight: bold;
+}
+
+.skills-2 {
+    list-style-type: square;
+    border-width: 2px;
+    border-color: aqua;
+    border-style: none none solid none;
+}
+
+.photo {
+    border-width: 2px;
+    border-style: solid; 
+    border-color: aqua;
+    padding: 10px;
+}
+
+.achievements-2 {
+    border-width: 2px;
+    border-color: aqua;
+    border-style: none none solid none;
+}
+
+.year {
+    background-color: aliceblue;
+}
+
+.year-2 {
+    background-color: aliceblue;
+}
+
+.position-1 {
+    background-color: aliceblue;
+}
+
+.description_1 {
+    background-color: aliceblue;
+}
+
+.description_2 {
+    background-color: aliceblue;
+}
+
+.position-2 {
+    background-color: aliceblue;
+}
+
+.description_3 {
+    background-color: aliceblue;
+}
