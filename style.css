@@ -8,7 +8,7 @@
     border-width: 2px;
     border-style: none none solid none;
     border-color: aqua;
-
+    display: inline-block;
 }
 
 .education-seeker {
@@ -16,10 +16,12 @@
     border-width: 2px;
     border-color: aqua;
     border-style: none none solid none;
+    display: inline-block;
 }
 
 .education {
     font-weight: bold;
+    clear: both;
 }
 
 .achievements {
@@ -76,10 +78,14 @@
 }
 
 .photo {
+    width: 100px;
+    height: 135px;
     border-width: 2px;
     border-style: solid; 
     border-color: aqua;
     padding: 10px;
+    float: right;
+    
 }
 
 .achievements-2 {
@@ -114,4 +120,9 @@
 
 .description_3 {
     background-color: aliceblue;
+}
+
+.border {
+    width: 100%;
+    background-size: cover;
 }
