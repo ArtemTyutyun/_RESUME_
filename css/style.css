@@ -1,57 +1,60 @@
-.resume {
-    color:  #333;
+.parent {
+    border: 1px solid #000;
+    display: flex;
+}
+
+
+.left{
+    display: grid;
+    width: 250px;
+    height: 700px;
+    background-color: #86A3B4;
+}
+
+.right {
+    display: grid;
+    width: 500px;
+    height: 700px;
+    background-color: white;
 }
 
 .name {
-    font-style: oblique;
+    color: rgb(255, 255, 255);
     font-weight: bolder;
-    border-width: 2px;
-    border-style: none none solid none;
-    border-color: aqua;
-
+    font-size: 50px;
+    margin-left: 10%;
 }
 
-.education-seeker {
-    font-weight: bold;
-    border-width: 2px;
-    border-color: aqua;
-    border-style: none none solid none;
+.name-2 {
+    color: blue; 
+    font-size: 50px;
+    font-weight: bolder;
+    margin-left: 10%;
+    margin-top: -17%;
 }
 
-.education {
-    font-weight: bold;
-}
+.photo {
+    width: 250px;
+    height: 255px;
+    margin-top: auto;
+} 
 
-.achievements {
-    font-weight: bold;
-}
-
-.period {
-    font-weight: bold;
-    text-transform: uppercase;
-    background-color: aquamarine;
-}
-
-.position {
-    font-weight: bold;
-    text-transform: uppercase;
-    background-color: aquamarine;
-}
-
-.description {
-    font-weight: bold;
-    text-transform: uppercase;
-    background-color: aquamarine;
-}
-
-.discription-2 {
-    font-weight: bold;
-    text-transform: uppercase;
-    background-color: aquamarine;
-}
-
-.link {
+.link{
     color: #00f;
+    text-decoration: underline;
+}
+
+.link-2{
+    color: #00f;
+    text-decoration: underline;
+}
+
+.link-2:hover {
+    text-decoration: none;
+}
+
+.link-2:visited {
+    color: rgb(142, 223, 149);
     text-decoration: underline;
 }
 
@@ -65,53 +68,94 @@
 }
 
 .skills {
+    font-size: x-large;
     font-weight: bold;
+    margin-left: 2%;
 }
 
 .skills-2 {
     list-style-type: square;
-    border-width: 2px;
-    border-color: aqua;
-    border-style: none none solid none;
+    margin-left: 6%;
 }
 
-.photo {
-    border-width: 2px;
-    border-style: solid; 
-    border-color: aqua;
-    padding: 10px;
+.ul {
+    list-style-type: none;
 }
 
-.achievements-2 {
-    border-width: 2px;
-    border-color: aqua;
-    border-style: none none solid none;
+.Contact {
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.Lenguage {
+    margin-left: 10%;
 }
 
-.year {
-    background-color: aliceblue;
+.Languages {
+    font-weight: bold;
+    font-size: x-large;
+    font-weight: 600;
 }
 
-.year-2 {
-    background-color: aliceblue;
+.Summary {
+    font-weight: bold;
+    font-size: x-large;
+    font-weight: 600;
+    margin-left: 10%;
 }
 
-.position-1 {
-    background-color: aliceblue;
+.Summary-2 {
+    margin-left: 10%;
 }
 
-.description_1 {
-    background-color: aliceblue;
+.Education {
+    font-weight: bold;
+    font-size: x-large;
+    font-weight: 600;
+    margin-left: 10%;
 }
 
-.description_2 {
-    background-color: aliceblue;
+.Dates {
+    margin-left: 10%;
 }
 
-.position-2 {
-    background-color: aliceblue;
+.Name {
+    margin-left: 10%;
 }
 
-.description_3 {
-    background-color: aliceblue;
+.address-2 {
+    font-weight: bold;
+    font-size: large;
+}
+
+.phone-2 {
+    font-weight: bold;
+    font-size: large;
+} 
+
+.e-mail-2 {
+    font-weight: bold;
+    font-size: large;
+}
+
+
+.Dates {
+    font-weight: bold;
+    font-size: large;
+    font-weight: 600;
+}
+
+.Name {
+    font-weight: bold;
+    font-size: large;
+    font-weight: 600;
+}
+
+.phone {
+    margin-top: 8%;
+}
+
+.e-mail {
+    margin-top: 8%;
 }
