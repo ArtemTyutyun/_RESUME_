@@ -1,0 +1,165 @@
+.parent {
+    border: 1px solid #000;
+    display: flex;
+}
+
+
+.left{
+    position: sticky;
+    top: 1px;
+    display: grid;
+    width: 250px;
+    height: 800px;
+    background-color: #86A3B4;
+}
+
+.right {
+    align-content: flex-start;
+    display: grid;
+    width: 500px;
+    height: 5000px;
+    background-color: white;
+
+}
+
+.name {
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 50px;
+    margin-left: 10%;
+}
+
+.name-2 {
+    color: blue; 
+    font-size: 50px;
+    font-weight: bolder;
+    margin-left: 10%;
+    margin-top: -17%;
+}
+
+.photo {
+    width: 250px;
+    height: 255px;
+    margin-top: auto;
+} 
+
+.link{
+    color: #00f;
+    text-decoration: underline;
+}
+
+.link-2{
+    color: #00f;
+    text-decoration: underline;
+}
+
+.link-2:hover {
+    text-decoration: none;
+}
+
+.link-2:visited {
+    color: rgb(142, 223, 149);
+    text-decoration: underline;
+}
+
+.link:hover {
+    text-decoration: none;
+}
+
+.link:visited {
+    color: #005;
+    text-decoration: underline;
+}
+
+.skills {
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 2%;
+}
+
+.skills-2 {
+    list-style-type: square;
+    margin-left: 6%;
+}
+
+.ul {
+    list-style-type: none;
+}
+
+.Contact {
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.Lenguage {
+    margin-left: 10%;
+}
+
+.Languages {
+    font-weight: bold;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.Summary {
+    font-weight: bold;
+    font-size: x-large;
+    font-weight: 600;
+    margin-left: 10%;
+}
+
+.Summary-2 {
+    margin-left: 10%;
+}
+
+.Education {
+    font-weight: bold;
+    font-size: x-large;
+    font-weight: 600;
+    margin-left: 10%;
+}
+
+.Dates {
+    margin-left: 10%;
+}
+
+.Name {
+    margin-left: 10%;
+}
+
+.address-2 {
+    font-weight: bold;
+    font-size: large;
+}
+
+.phone-2 {
+    font-weight: bold;
+    font-size: large;
+} 
+
+.e-mail-2 {
+    font-weight: bold;
+    font-size: large;
+}
+
+
+.Dates {
+    font-weight: bold;
+    font-size: large;
+    font-weight: 600;
+}
+
+.Name {
+    font-weight: bold;
+    font-size: large;
+    font-weight: 600;
+}
+
+.phone {
+    margin-top: 8%;
+}
+
+.e-mail {
+    margin-top: 8%;
+}
