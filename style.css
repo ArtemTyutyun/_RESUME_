@@ -147,10 +147,14 @@ textarea,
     display: block;
 }
 
+.message:valid {
+    margin-bottom: 34px;
+}
+
 .success {
     display: none;
     color: green;
-    margin-top: -18px;
+    margin-top: -33px;
     margin-bottom: -3px;
 }
 
@@ -170,12 +174,16 @@ textarea,
 }
 
 .success-2 {
-    display:non
+    display:none;
     color: green;
     margin-top: -11px;
     margin-bottom: -7px;
 }
 
+
+.Description-2:valid {
+    margin-bottom: 49px;
+}
 
 .result {
     width:95%;
@@ -204,23 +212,41 @@ textarea,
 
 select[type="checkbox"]{
     margin-top: 27px;
-    margin-left: -69px;
+    margin-left: -73px;
 }
 
-.work-type:invalid + .error-3 {
+.message-2:invalid + .error-3 {
     display: block;
+    margin-bottom: px
 }
 
 .error-3 {
     display: none;
     color: red;
+    margin-top: -29px;
+    margin-bottom: 11px;
 }
 
-.work-type:valid + .success-3 {
+.message-2:valid + .success-3 {
     display: block;
 }
 
 .success-3 {
-    display:none;
+    display: none;
     color: green;
+    margin-top: -28px;
+    margin-bottom: 10px;
+    
+}
+
+.submit-2 {
+    margin-top: -15px;
+}
+
+.Description-2:valid {
+    border-color: green;
+}
+
+.Description-2:active {
+    border-color: skyblue;
 }
