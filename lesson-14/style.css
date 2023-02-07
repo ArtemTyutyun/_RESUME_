@@ -1,0 +1,570 @@
+:root{
+    /* colors */
+    --color-main-left: #86A3B4;
+    --color-main-right: #FFFFFF;
+    --color-name-1: #FFFFFF;
+    --color-name-2: #1C2E8C;
+    --color-contact: #263036;
+    --color-table-1: #1E1E1E; 
+    --color-table-2:#1E1E1E;
+    --color-table-3:#000000;
+    --color-table-4:#000000;
+    --color-table-5:#000000;
+    --color-address-2: #263036;
+    --color-address-3: #263036;
+    --color-phone-2: #263036;
+    --color-phone-3: #263036;
+    --color-e-mail-2: #263036;
+    --color-link: #1C2E8C;
+    --color-Languages-2:#263036; 
+    --color-Language-1:#1E1E1E; 
+    --color-Language-2:#1E1E1E; 
+    --color-Summary-1: #1E1E1E;
+    --color-Summary-2:#263036;
+    --color-left-2:#263036;
+    --color-right-2:#263036;
+    --color-skills-2:#1E1E1E;
+    --color-Education:#1E1E1E; 
+    --color-Education-2:#263036;
+
+    /* retreat */
+
+
+    --name-margin-top: 58px;
+    --name-margin-right: 85px;
+    --name-margin-bottom: 36px;
+    --name-margin-left: 40px;
+
+    --photo-margin-top: 36px; 
+    --photo-margin-right: 0px;
+    --photo-margin-bottom: 50px;
+    --photo-margin-left: 0px;
+
+    --contact-margin-top: 50px; 
+    --contact-margin-right: 220px;
+    --contact-margin-bottom: 15px;
+    --contact-margin-left: 41px;
+
+    --table-1-margin-top: 15px; 
+    --table-1-margin-right: 54px;
+    --table-1-margin-bottom: 31px;
+    --table-1-margin-left: 42px; 
+
+    --table-2-margin-top: 15px; 
+    --table-2-margin-right: 52px;
+    --table-2-margin-bottom: 23px;
+    --table-2-margin-left: 44px;
+    
+    --table-3-margin-top: 28px;
+    --table-3-margin-right: 101px;
+    --table-3-margin-bottom: 28px;
+    --table-3-margin-left: 55px;
+
+    --table-4-margin-top: 28px;
+    --table-4-margin-right: 101px;
+    --table-4-margin-bottom: 28px;
+    --table-4-margin-left: 55px;
+
+    --table-5-margin-top: 28px;
+    --table-5-margin-right: 101px;
+    --table-5-margin-bottom: 28px;
+    --table-5-margin-left: 55px;
+
+    --address-2-margin-top: 31px; 
+    --address-2-margin-right: 247px;
+    --address-2-margin-bottom: 11px;
+    --address-2-margin-left: 41px;
+
+    --address-3-margin-top: 11px; 
+    --address-3-margin-right: 204px;
+    --address-3-margin-bottom: 36px;
+    --address-3-margin-left: 40px;
+
+    --phone-2-margin-top: 36px; 
+    --phone-2-margin-right: 270px;
+    --phone-2-margin-bottom: 11px;
+    --phone-2-margin-left: 41px;
+
+    --phone-3-margin-top: 11px; 
+    --phone-3-margin-right: 213px;
+    --phone-3-margin-bottom: 36px;
+    --phone-3-margin-left: 40px;
+
+    --e-mail-2-margin-top: 36px; 
+    --e-mail-2-margin-right: 269px;
+    --e-mail-2-margin-bottom: 11px;
+    --e-mail-2-margin-left: 42px;
+
+    --link-margin-top: 11px; 
+    --link-margin-right: 146px;
+    --link-margin-bottom: 36px;
+    --link-margin-left: 41px;
+
+    --Languages-2-margin-top: 36px; 
+    --Languages-2-margin-right: 171px;
+    --Languages-2-margin-bottom: 15px;
+    --Languages-2-margin-left: 43px; 
+    
+    --Language-1-margin-top: 23px; 
+    --Language-1-margin-right: 204px;
+    --Language-1-margin-bottom: 15px;
+    --Language-1-margin-left: 42px;
+
+    --Language-2-margin-top: 15px; 
+    --Language-2-margin-right: 227px;
+    --Language-2-margin-bottom: 530px;
+    --Language-2-margin-left: 42px;
+
+    --Summary-1-margin-top: 58px;
+    --Summary-1-margin-right: 593px;
+    --Summary-1-margin-bottom: 28px;
+    --Summary-1-margin-left: 55px;
+
+    --Summary-2-margin-top: 28px;
+    --Summary-2-margin-right: 54px;
+    --Summary-2-margin-bottom: 49px;
+    --Summary-2-margin-left: 55px;
+
+    --left-2-margin-top: 28px;
+    --left-2-margin-right: 27px;
+    --left-2-margin-bottom: 49px;
+    --left-2-margin-left: 55px;
+
+    --right-2-margin-top: 28px;
+    --right-2-margin-right: 139px;
+    --right-2-margin-bottom: 49px;
+    --right-2-margin-left: 27px;
+
+    --skills-2-margin-top: 49px;
+    --skills-2-margin-right: 482px;
+    --skills-2-margin-bottom: 28px;
+    --skills-2-margin-left: 55px;
+
+    --skills-3-margin-top: 28px;
+    --skills-3-margin-right: 139px;
+    --skills-3-margin-bottom: 49px;
+    --skills-3-margin-left: 27px;
+
+    --Education-margin-top: 53px;
+    --Education-margin-right: 585px;
+    --Education-margin-bottom: 28px;
+    --Education-margin-left: 55px;
+
+    --Education-2-margin-top: 28px;
+    --Education-2-margin-right: 201px;
+    --Education-2-margin-bottom: 549px;
+    --Education-2-margin-left: 55px; 
+}
+
+.main-theme .left {
+    background: var(--color-main-left);
+}
+
+.main-theme .right {
+    background: var(--color-main-right);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+.parent {
+    border: 1px solid #000;
+    display: flex;
+}
+
+
+.left{
+    display: grid;
+    width: 385px;
+    height: 1667px;
+    background: var(--color-main-left);
+}
+
+.right {
+    display: grid;
+    width: 1200px;
+    height: 1667px;
+    background: var(--color-main-right);
+}
+
+.name {
+    margin-top: var(--name-margin-top);
+    margin-right: var(--name-margin-right);
+    margin-bottom: var(--name-margin-bottom);
+    margin-left: var(--name-margin-left);
+}
+
+.name-1 {
+    width: 118px;
+    height: 48px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: var(--color-name-1);
+}
+
+.name-2 {
+    width: 260px;
+    height: 48px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: var(--color-name-2);
+}
+
+.photo {
+    width: 385px;
+    height: 292px;
+    margin-top: var(--photo-margin-top);
+    margin-right: var(--photo-margin-right);
+    margin-bottom: var(--photo-margin-bottom);
+    margin-left: var(--photo-margin-left);
+}
+
+.Contact {
+    width: 124px;
+    height: 39px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: var(--color-contact);
+    margin-top: var(--contact-margin-top);
+    margin-right: var(--contact-margin-right);
+    margin-bottom: var(--contact-margin-bottom);
+    margin-left: var(--contact-margin-left);
+}
+
+.table-1 {
+    width: 289px;
+    height: 0px;
+    border: 6px solid var(--color-table-1); 
+    margin-top: var(--table-1-margin-top); 
+    margin-right: var(--table-1-margin-right);
+    margin-bottom: var(--table-1-margin-bottom);
+    margin-left: var(--table-1-margin-left);  
+}
+
+
+.ul {
+     list-style: none;
+}
+
+.address-2 {
+    width: 97px;
+    height: 29px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: var(--color-address-2);
+    margin-top: var(--address-2-margin-top); 
+    margin-right: var(--address-2-margin-right);
+    margin-bottom: var(--address-2-margin-bottom);
+    margin-left: var(--address-2-margin-left);
+}
+
+.address-3 {
+    width: 141px;
+    height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--color-address-3);
+    margin-top: var(--address-3-margin-top);
+    margin-right: var(--address-3-margin-right);
+    margin-bottom: var(--address-3-margin-bottom);
+    margin-left: var(--address-3-margin-left);
+}
+
+.phone-2 {
+    width: 74px;
+    height: 29px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: var(--color-phone-2);
+    margin-top: var(--phone-2-margin-top);
+    margin-right: var(--phone-2-margin-right);
+    margin-bottom: var(--phone-2-margin-bottom);
+    margin-left: var(--phone-2-margin-left);
+}
+
+.phone-3 {
+    width: 132px;
+    height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--color-phone-3);
+    margin-top: var(--phone-3-margin-top); 
+    margin-right: var(--phone-3-margin-right); 
+    margin-bottom: var(--phone-3-margin-bottom); 
+    margin-left: var(--phone-3-margin-left); 
+}
+
+.e-mail-2 {
+    width: 74px;
+    height: 29px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: var(--color-e-mail-2);
+    margin-top: var(--e-mail-2-margin-top);
+    margin-right: var(--e-mail-2-margin-right);
+    margin-bottom: var(--e-mail-2-margin-bottom);
+    margin-left: var(--e-mail-2-margin-left);
+}
+
+.link {
+    width: 198px;
+    height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--color-link);
+    text-decoration: none;
+    margin-top: var(--link-margin-top);
+    margin-right: var(--link-margin-right);
+    margin-bottom: var(--link-margin-bottom);
+    margin-left: var(--link-margin-left);
+}
+
+.Languages-2 {
+    width: 171px;
+    height: 39px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: var(--color-Languages-2); 
+    margin-top: var(--Languages-2-margin-top); 
+    margin-right: var(--Languages-2-margin-right);
+    margin-bottom: var(--Languages-2-margin-bottom);
+    margin-left: var(--Languages-2-margin-left);  
+}
+
+.table-2 {
+    width: 289px;
+    height: 0px;
+    border: 6px solid var(--color-table-2); 
+    margin-top: var(--table-2-margin-top); 
+    margin-right: var(--table-2-margin-right); 
+    margin-bottom: var(--table-2-margin-bottom);
+    margin-left: var(--table-2-margin-left); 
+}
+
+.Language-1 {
+    width: 139px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--color-Language-1);
+    margin-top: var(--Language-1-margin-top);
+    margin-right: var(--Language-1-margin-right);
+    margin-bottom: var(--Language-1-margin-bottom);
+    margin-left: var(--Language-1-margin-left);
+}
+
+.Language-2 {
+    width: 116px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--color-Language-2); 
+    margin-top: var(--Language-2-margin-top); 
+    margin-right: var(--Language-2-margin-right);
+    margin-bottom: var(--Language-2-margin-bottom);
+    margin-left: var(--Language-2-margin-left);
+}
+
+.Summary-1 {
+    width: 167px;
+    height: 44px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: var(--color-Summary-1); 
+    margin-top: var(--Summary-1-margin-top);
+    margin-right: var(--Summary-1-margin-right);
+    margin-bottom: var(--Summary-1-margin-bottom);
+    margin-left: var(--Summary-1-margin-left);
+}
+
+.table-3 {
+    width: 659px;
+    height: 0px;
+    border: 5px solid var(--color-table-3);
+    margin-top: var(--table-3-margin-top);
+    margin-right: var(--table-3-margin-right);
+    margin-bottom: var(--table-3-margin-bottom);
+    margin-left: var(--table-3-margin-left);
+}
+
+.Summary-2 {
+    width: 706px;
+    height: 76px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--color-Summary-2);
+    margin-top: var(--Summary-1-margin-top);
+    margin-right: var(--Summary-1-margin-right);
+    margin-bottom: var(--Summary-1-margin-bottom);
+    margin-left: var(--Summary-1-margin-left);
+}
+
+.skills-parent {
+display: flex;
+}
+
+.left-2 {
+    display: grid;
+    width: 297px;
+    height: 84px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--color-left-2);
+    margin-top: var(--left-2-margin-top);
+    margin-right: var(--left-2-margin-right);
+    margin-bottom: var(--left-2-margin-bottom);
+    margin-left: var(--left-2-margin-left);
+}
+
+.right-2 {
+    display: grid;
+    width: 297px;
+    height: 84px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--color-right-2);
+    margin-top: var(--right-2-margin-top);
+    margin-right: var(--right-2-margin-right);
+    margin-bottom: var(--right-2-margin-bottom);
+    margin-left: var(--right-2-margin-left);
+    
+}
+
+.skills-2 {
+    width: 278px;
+    height: 44px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: var(--color-skills-2);
+    margin-top: var(--skills-2-margin-top);
+    margin-right: var(--skills-2-margin-right);
+    margin-bottom: var(--skills-2-margin-bottom);
+    margin-left: var(--skills-2-margin-left);
+}
+
+.skills-3{
+    width: 621px;
+    height: 84px;
+    margin-top: var(--skills-3-margin-top);
+    margin-right: var(--skills-3-margin-right);
+    margin-bottom: var(--skills-3-margin-bottom);
+    margin-left: var(--skills-3-margin-left);
+}
+
+.table-4 {
+    width: 659px;
+    height: 0px;
+    border: 5px solid var(--color-table-4);
+    margin-top: var(--table-4-margin-top);
+    margin-right: var(--table-4-margin-right);
+    margin-bottom: var(--table-4-margin-bottom);
+    margin-left: var(--table-4-margin-left);
+}
+
+.Education {
+    width: 175px;
+    height: 44px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: var(--color-Education);
+    margin-top: var(--Education-margin-top);
+    margin-right: var(--Education-margin-right);
+    margin-bottom:  var(--Education-margin-bottom);
+    margin-left: var(--Education-margin-left);
+}
+
+.table-5 {
+    width: 659px;
+    height: 0px;
+    border: 5px solid var(--color-table-5);
+    margin-top: var(--table-5-margin-top);
+    margin-right: var(--table-5-margin-right);
+    margin-bottom: var(--table-5-margin-bottom);
+    margin-left: var(--table-5-margin-left);
+}
+
+.Education-2 {
+    width: 559px;
+    height: 57px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--color-Education-2);  
+    margin-top: var(--Education-2-margin-top);
+    margin-right: var(--Education-2-margin-right);
+    margin-bottom: var(--Education-2-margin-bottom);
+    margin-left: var(--Education-2-margin-left);
+}
+
+.link-2 {
+    color: #00f;
+    text-decoration: underline;
+}
+
+.link-2:hover {
+    text-decoration: none;
+}
+
+.link-2:visited {
+    color: #005;
+    text-decoration: underline;
+}

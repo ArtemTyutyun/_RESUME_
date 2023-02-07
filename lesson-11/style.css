@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
 .parent {
     border: 1px solid #000;
     display: flex;
@@ -45,7 +50,6 @@
     font-size: 40px;
     line-height: 48px;
     color: #1C2E8C;
-    margin-top: -35px;
 }
 
 .photo {
