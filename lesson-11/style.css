@@ -10,6 +10,8 @@
 
 
 .left{
+    margin: 0;
+    padding: 0;
     display: grid;
     width: 385px;
     height: 1667px;
