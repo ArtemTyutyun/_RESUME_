@@ -1,165 +1,242 @@
-.parent {
-    border: 1px solid #000;
-    display: flex;
+input,
+select,
+textarea {
+    appearance: none;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+input,
+select,
+textarea {
+    border: 2px solid #333;
+    border-radius: 14px;
+}
+
+table,th,td {
+    padding: 7px;
+    border-collapse: collapse;;
+    border: 2px solid #333
+}
+
+input[type="text"] {
+    cursor: text;
+}
+
+textarea {
+    cursor: text;
+}
+
+input[type="submit"]{
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+
+input[type="submit"]:enabled {
+    color: white;
+    background-color: blue;
+}
+
+input[type="submit"]:hover {
+    color: white;
+    background-color: darkblue;
+}
+
+input[type="submit"]:disabled {
+    color: white;
+    background-color: cornflowerblue;
+}
+
+ .form {
+   max-width: 1024px;
+   height: auto;
+   
+}
+
+input[type="text"]:invalid {
+    border-color: red;
+}
+
+input[type="text"]:valid {
+    border-color: green;
+}
+
+select[type="checkbox"] {
+    cursor: pointer;
+    width: 150px;
+}
+
+select[type="checkbox"]:invalid {
+    border-color: red;
+}
+
+select[type="checkbox"]:valid {
+    border-color: green;
 }
 
 
-.left{
-    position: sticky;
-    top: 1px;
-    display: grid;
-    width: 250px;
-    height: 800px;
-    background-color: #86A3B4;
-}
 
-.right {
-    align-content: flex-start;
-    display: grid;
-    width: 500px;
-    height: 5000px;
-    background-color: white;
-
-}
-
-.name {
-    color: rgb(255, 255, 255);
-    font-weight: bolder;
-    font-size: 50px;
-    margin-left: 10%;
-}
-
-.name-2 {
-    color: blue; 
-    font-size: 50px;
-    font-weight: bolder;
-    margin-left: 10%;
-    margin-top: -17%;
-}
-
-.photo {
-    width: 250px;
-    height: 255px;
-    margin-top: auto;
-} 
-
-.link{
-    color: #00f;
-    text-decoration: underline;
-}
-
-.link-2{
-    color: #00f;
-    text-decoration: underline;
-}
-
-.link-2:hover {
-    text-decoration: none;
-}
-
-.link-2:visited {
-    color: rgb(142, 223, 149);
-    text-decoration: underline;
-}
-
-.link:hover {
-    text-decoration: none;
-}
-
-.link:visited {
-    color: #005;
-    text-decoration: underline;
-}
-
-.skills {
-    font-size: x-large;
-    font-weight: bold;
-    margin-left: 2%;
-}
-
-.skills-2 {
-    list-style-type: square;
-    margin-left: 6%;
-}
-
-.ul {
-    list-style-type: none;
+.Hire-me {
+font-size: xx-large;
+font-weight: 600;
 }
 
 .Contact {
-    font-size: x-large;
-    font-weight: bold;
-    margin-left: 10%;
-    margin-top: 10%;
-}
-.Lenguage {
-    margin-left: 10%;
+font-size: large;
+font-weight: 600;
 }
 
-.Languages {
-    font-weight: bold;
-    font-size: x-large;
-    font-weight: 600;
+.th-1 {
+font-size: large;
+font-weight: 600;
 }
 
-.Summary {
-    font-weight: bold;
-    font-size: x-large;
-    font-weight: 600;
-    margin-left: 10%;
+.th-2 {
+font-size: large;
+font-weight: 600;
 }
 
-.Summary-2 {
-    margin-left: 10%;
+select {
+    background: url('./photo.png') no-repeat center right;
 }
 
-.Education {
-    font-weight: bold;
-    font-size: x-large;
-    font-weight: 600;
-    margin-left: 10%;
+.legend {
+    text-align: center;
 }
 
-.Dates {
-    margin-left: 10%;
+textarea:invalid {
+    border-color: red;
 }
 
-.Name {
-    margin-left: 10%;
+textarea[type="checkbox"]:valid {
+    border-color: green;
 }
 
-.address-2 {
-    font-weight: bold;
-    font-size: large;
+label,
+textarea,
+ input[type="submit"]{
+    display: flex;
 }
 
-.phone-2 {
-    font-weight: bold;
-    font-size: large;
-} 
+.form {
+    position: fixed; 
+    top: 50%;
+    left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+}
 
-.e-mail-2 {
-    font-weight: bold;
-    font-size: large;
+.message:invalid + .error {
+    display: block;
+}
+
+.error {
+    display: none;
+    color: red;
+    margin-top: 1px;
+    margin-left: 3px;
+    margin-bottom: -3px;
+}
+
+.message:valid ~ .success {
+    display: block;
+}
+
+.message:valid {
+    margin-bottom: 34px;
+}
+
+.success {
+    display: none;
+    color: green;
+    margin-top: -33px;
+    margin-bottom: -3px;
+}
+
+.Description-2:invalid + .error-2 {
+    display: block;
+}
+
+.error-2 {
+    display: none;
+    color: red;
+    margin-bottom: 30px;
+    margin-top: 1px;
+}
+
+.Description-2:valid ~ .success-2 {
+    display: block;
+}
+
+.success-2 {
+    display:none;
+    color: green;
+    margin-top: -11px;
+    margin-bottom: -7px;
 }
 
 
-.Dates {
-    font-weight: bold;
-    font-size: large;
-    font-weight: 600;
+.Description-2:valid {
+    margin-bottom: 49px;
 }
 
-.Name {
-    font-weight: bold;
-    font-size: large;
-    font-weight: 600;
+.result {
+    width:95%;
+    text-align: right;
+    margin-top: -70px;
+    padding-right: 10px;
+    color: #333;
 }
 
-.phone {
-    margin-top: 8%;
+.Description-2 {
+    margin-bottom: 0px;
 }
 
-.e-mail {
-    margin-top: 8%;
+.message {
+    margin-top: 8px;
+}
+
+.Description {
+    margin-bottom: -8px;
+}
+
+.work-type {
+    margin-top: 7px;
+    margin-bottom: 30px;
+}
+
+select[type="checkbox"]{
+    margin-top: 27px;
+    margin-left: -73px;
+}
+
+.message-2:invalid + .error-3 {
+    display: block;
+}
+
+.error-3 {
+    display: none;
+    color: red;
+    margin-top: -29px;
+    margin-bottom: 11px;
+}
+
+.submit-2 {
+    margin-top: -15px;
+}
+
+.Description-2:valid {
+    border-color: green;
+}
+
+.Description-2:active {
+    border-color: rgb(104, 99, 167);
+}
+
+select {
+    background: url('./photo.png') no-repeat center right;
 }
