@@ -10,18 +10,14 @@
 
 
 .left{
-    position: sticky;
-    top: 0px;
-    display: grid;
     width: 385px;
     height: 1667px;
     background: #86A3B4;
 }
 
 .right {
-    display: grid;
     width: 1200px;
-    height: 5000px;
+    height: 1667px;
     background: #FFFFFF;
 }
 
@@ -388,6 +384,8 @@ display: flex;
     color: #263036;  
     margin-top: 28px;
     margin-right: 201px;
-    margin-bottom: 4300px;
+    margin-bottom: 549px;
     margin-left: 55px; 
 }
+
+
