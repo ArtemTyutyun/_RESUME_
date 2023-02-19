@@ -3,6 +3,7 @@
     display: grid;
     width: 385px;
     height: 2700px;
+
   }
 }
 
@@ -10,6 +11,14 @@
   .left {
     width: 385px;
     height: 1200px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .right {
+    width: 385px;
+    height: 1500px;
+    grid-template-rows: 50px 50px 50px 
   }
 }
 
@@ -266,3 +275,49 @@
     margin-right: 80.47px;
   }
 }
+
+@media only screen and (max-width: 550px) {
+  .Work {
+    width: 331px;
+    height: 44px;
+    margin-top: 35px;
+    margin-left: 26px;
+    margin-bottom: 28px;
+    margin-right: 28px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .table-6 {
+    width: 328px;
+    height: 0px;
+    margin-top: 28px;
+    margin-left: 26px;
+    margin-bottom: 31px;
+    margin-right: 31px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .WE1 {
+    width: 328px;
+height: 133px;
+margin-top: 31px;
+    margin-left: 26px;
+    margin-bottom: 83px;
+    margin-right: 31px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .WE2 {
+  width: 328px;
+height: 256px;
+margin-top: 83px;
+    margin-left: 31px;
+    margin-bottom: 35px;
+    margin-right: 29px;
+  }
+}
+
+
