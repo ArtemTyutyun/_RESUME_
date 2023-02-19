@@ -10,16 +10,25 @@
 
 
 .left{
+<<<<<<< HEAD
     position: sticky;
     top: 0px;
     display: grid;
+=======
+    border: 1px solid #000;
+    position: sticky;
+    top: 0px;
+>>>>>>> lesson-13
     width: 385px;
     height: 1667px;
     background: #86A3B4;
 }
 
 .right {
+<<<<<<< HEAD
     display: grid;
+=======
+>>>>>>> lesson-13
     width: 1200px;
     height: 5000px;
     background: #FFFFFF;
@@ -40,7 +49,11 @@
     font-weight: 600;
     font-size: 40px;
     line-height: 48px;
+<<<<<<< HEAD
     color: #FFFFFF;
+=======
+    color: #ffffff;
+>>>>>>> lesson-13
 }
 
 .name-2 {
@@ -391,3 +404,160 @@ display: flex;
     margin-bottom: 4300px;
     margin-left: 55px; 
 }
+<<<<<<< HEAD
+=======
+
+.Name {
+    font-size: 16px;
+    font-style: 600;
+  }
+  
+  .Dates-1 {
+    font-size: 16px;
+    font-style: 600;
+  }
+  
+  .Job-1 {
+    font-size: 16px;
+    font-style: 600;
+  }
+  
+  .Project-1 {
+    font-size: 16px;
+    font-style: 600;
+  }
+  .Name-2 {
+    font-size: 16px;
+    font-style: 600;
+  }
+  
+  .Dates-2 {
+    font-size: 16px;
+    font-style: 600;
+  }
+  
+  .Job-2 {
+    font-size: 16px;
+    font-style: 600;
+  }
+  
+  .Project-2 {
+    font-size: 16px;
+    font-style: 600;
+  }
+
+  .Name-3 {
+  font-size: 16px;
+  font-style: 600;
+}
+
+.Name-2 {
+    font-size: 16px;
+    font-style: 600;
+  }
+  
+  .Dates-2 {
+    font-size: 16px;
+    font-style: 600;
+  }
+  
+  .Job-2 {
+    font-size: 16px;
+    font-style: 600;
+  }
+  
+  .Project-2 {
+    font-size: 16px;
+    font-style: 600;
+  }
+
+  .Name {
+    font-size: 16px;
+    font-style: 600;
+  }
+  
+  .Dates-1 {
+    font-size: 16px;
+    font-style: 600;
+  }
+  
+  .Job-1 {
+    font-size: 16px;
+    font-style: 600;
+  }
+  
+  .Project-1 {
+    font-size: 16px;
+    font-style: 600;
+  }
+
+  .Name-3 {
+    font-size: 16px;
+    font-style: 600;
+  }
+  
+  .Dates {
+    font-size: 16px;
+    font-style: 600;
+  }
+
+  .Work-Experience {
+    width: 706px;
+    height: 392px;
+  }
+  
+  .Head {
+    width: 295px;
+    height: 44px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #1e1e1e;
+    margin-top: 49px;
+    margin-left: 55px;
+    margin-bottom: 28px;
+    margin-right: 465px;
+  }
+  
+  .table-6 {
+    width: 659px;
+    height: 0px;
+    border: 5px solid #000000;
+    margin-top: 28px;
+    margin-left: 55px;
+    margin-bottom: 31px;
+    margin-right: 101px;
+  }
+  
+  .WE1 {
+    width: 706px;
+    height: 133px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-top: 31px;
+    margin-left: 55px;
+    margin-bottom: 15px;
+    margin-right: 54px;
+  }
+  
+  .WE2 {
+    width: 706px;
+    height: 141px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-top: 15px;
+    margin-left: 55px;
+    margin-bottom: 53px;
+    margin-right: 54px;
+  }
+>>>>>>> lesson-13
