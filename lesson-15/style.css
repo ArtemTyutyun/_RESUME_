@@ -1,3 +1,194 @@
+:root{
+    /* colors */
+    --color-main-left: #86A3B4;
+    --color-main-right: #FFFFFF;
+    --color-name-1: #FFFFFF;
+    --color-name-2: #1C2E8C;
+    --color-contact: #263036;
+    --color-table-1: #1E1E1E; 
+    --color-table-2:#1E1E1E;
+    --color-table-3:#000000;
+    --color-table-4:#000000;
+    --color-table-5:#000000;
+    --color-table-6:#000000;
+    --color-address-2: #263036;
+    --color-address-3: #263036;
+    --color-phone-2: #263036;
+    --color-phone-3: #263036;
+    --color-e-mail-2: #263036;
+    --color-link: #1C2E8C;
+    --color-Languages-2:#263036; 
+    --color-Language-1:#1E1E1E; 
+    --color-Language-2:#1E1E1E; 
+    --color-Summary-1: #1E1E1E;
+    --color-Summary-2:#263036;
+    --color-left-2:#263036;
+    --color-right-2:#263036;
+    --color-skills-2:#1E1E1E;
+    --color-Education:#1E1E1E; 
+    --color-Education-2:#263036;
+    --color-WE1:#000000;
+    --color-WE2:#000000;
+    --color-Head:#1e1e1e;
+
+    /* retreat */
+
+
+    --name-margin-top: 58px;
+    --name-margin-right: 85px;
+    --name-margin-bottom: 36px;
+    --name-margin-left: 40px;
+
+    --photo-margin-top: 36px; 
+    --photo-margin-right: 0px;
+    --photo-margin-bottom: 50px;
+    --photo-margin-left: 0px;
+
+    --contact-margin-top: 50px; 
+    --contact-margin-right: 220px;
+    --contact-margin-bottom: 15px;
+    --contact-margin-left: 41px;
+
+    --table-1-margin-top: 15px; 
+    --table-1-margin-right: 54px;
+    --table-1-margin-bottom: 31px;
+    --table-1-margin-left: 42px; 
+
+    --table-2-margin-top: 15px; 
+    --table-2-margin-right: 52px;
+    --table-2-margin-bottom: 23px;
+    --table-2-margin-left: 44px;
+    
+    --table-3-margin-top: 28px;
+    --table-3-margin-right: 101px;
+    --table-3-margin-bottom: 28px;
+    --table-3-margin-left: 55px;
+
+    --table-4-margin-top: 28px;
+    --table-4-margin-right: 101px;
+    --table-4-margin-bottom: 28px;
+    --table-4-margin-left: 55px;
+
+    --table-5-margin-top: 28px;
+    --table-5-margin-right: 101px;
+    --table-5-margin-bottom: 28px;
+    --table-5-margin-left: 55px;
+
+    --table-6-margin-top: 28px;
+    --table-6-margin-right: 101px;
+    --table-6-margin-bottom: 31px;
+    --table-6-margin-left: 55px;
+
+    --address-2-margin-top: 31px; 
+    --address-2-margin-right: 247px;
+    --address-2-margin-bottom: 11px;
+    --address-2-margin-left: 41px;
+
+    --address-3-margin-top: 11px; 
+    --address-3-margin-right: 204px;
+    --address-3-margin-bottom: 36px;
+    --address-3-margin-left: 40px;
+
+    --phone-2-margin-top: 36px; 
+    --phone-2-margin-right: 270px;
+    --phone-2-margin-bottom: 11px;
+    --phone-2-margin-left: 41px;
+
+    --phone-3-margin-top: 11px; 
+    --phone-3-margin-right: 213px;
+    --phone-3-margin-bottom: 36px;
+    --phone-3-margin-left: 40px;
+
+    --e-mail-2-margin-top: 36px; 
+    --e-mail-2-margin-right: 269px;
+    --e-mail-2-margin-bottom: 11px;
+    --e-mail-2-margin-left: 42px;
+
+    --link-margin-top: 11px; 
+    --link-margin-right: 146px;
+    --link-margin-bottom: 36px;
+    --link-margin-left: 41px;
+
+    --Languages-2-margin-top: 36px; 
+    --Languages-2-margin-right: 171px;
+    --Languages-2-margin-bottom: 15px;
+    --Languages-2-margin-left: 43px; 
+    
+    --Language-1-margin-top: 23px; 
+    --Language-1-margin-right: 204px;
+    --Language-1-margin-bottom: 15px;
+    --Language-1-margin-left: 42px;
+
+    --Language-2-margin-top: 15px; 
+    --Language-2-margin-right: 227px;
+    --Language-2-margin-bottom: 530px;
+    --Language-2-margin-left: 42px;
+
+    --Summary-1-margin-top: 58px;
+    --Summary-1-margin-right: 593px;
+    --Summary-1-margin-bottom: 28px;
+    --Summary-1-margin-left: 55px;
+
+    --Summary-2-margin-top: 28px;
+    --Summary-2-margin-right: 54px;
+    --Summary-2-margin-bottom: 49px;
+    --Summary-2-margin-left: 55px;
+
+    --left-2-margin-top: 28px;
+    --left-2-margin-right: 27px;
+    --left-2-margin-bottom: 49px;
+    --left-2-margin-left: 55px;
+
+    --right-2-margin-top: 28px;
+    --right-2-margin-right: 139px;
+    --right-2-margin-bottom: 49px;
+    --right-2-margin-left: 27px;
+
+    --skills-2-margin-top: 49px;
+    --skills-2-margin-right: 482px;
+    --skills-2-margin-bottom: 28px;
+    --skills-2-margin-left: 55px;
+
+    --skills-3-margin-top: 28px;
+    --skills-3-margin-right: 139px;
+    --skills-3-margin-bottom: 49px;
+    --skills-3-margin-left: 27px;
+
+    --Education-margin-top: 53px;
+    --Education-margin-right: 585px;
+    --Education-margin-bottom: 28px;
+    --Education-margin-left: 55px;
+
+    --Education-2-margin-top: 28px;
+    --Education-2-margin-right: 201px;
+    --Education-2-margin-bottom: 549px;
+    --Education-2-margin-left: 55px; 
+
+    --Work-margin-top:  49px;
+    --Work-margin-right: 465px;
+    --Work-margin-bottom: 28px;
+    --Work-margin-left: 55px; 
+
+    --WE1-margin-top: 31px;
+    --WE1-margin-left: 55px;
+    --WE1-margin-bottom: 15px;
+    --WE1-margin-right: 54px;
+
+    --WE2-margin-top: 15px;
+    --WE2-margin-left: 55px;
+    --WE2-margin-bottom: 53px;
+    --WE2-margin-right: 54px;
+}
+
+.main-theme .left {
+    background: var(--color-main-left);
+}
+
+.main-theme .right {
+    background: var(--color-main-right);
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -12,20 +203,20 @@
 .left{
     width: 385px;
     height: 1667px;
-    background: #86A3B4;
+    background: var(--color-main-left);
 }
 
 .right {
     width: 1200px;
     height: 1667px;
-    background: #FFFFFF;
+    background: var(--color-main-right);
 }
 
 .name {
-    margin-top: 58px;
-    margin-right: 85px;
-    margin-bottom: 36px;
-    margin-left: 40px;
+    margin-top: var(--name-margin-top);
+    margin-right: var(--name-margin-right);
+    margin-bottom: var(--name-margin-bottom);
+    margin-left: var(--name-margin-left);
 }
 
 .name-1 {
@@ -36,7 +227,7 @@
     font-weight: 600;
     font-size: 40px;
     line-height: 48px;
-    color: #FFFFFF;
+    color: var(--color-name-1);
 }
 
 .name-2 {
@@ -47,16 +238,16 @@
     font-weight: 600;
     font-size: 40px;
     line-height: 48px;
-    color: #1C2E8C;
+    color: var(--color-name-2);
 }
 
 .photo {
     width: 385px;
     height: 292px;
-    margin-top: 36px; 
-    margin-right: 0px;
-    margin-bottom: 50px;
-    margin-left: 0px;
+    margin-top: var(--photo-margin-top);
+    margin-right: var(--photo-margin-right);
+    margin-bottom: var(--photo-margin-bottom);
+    margin-left: var(--photo-margin-left);
 }
 
 .Contact {
@@ -67,21 +258,21 @@
     font-weight: 600;
     font-size: 32px;
     line-height: 39px;
-    color: #263036;
-    margin-top: 50px; 
-    margin-right: 220px;
-    margin-bottom: 15px;
-    margin-left: 41px;
+    color: var(--color-contact);
+    margin-top: var(--contact-margin-top);
+    margin-right: var(--contact-margin-right);
+    margin-bottom: var(--contact-margin-bottom);
+    margin-left: var(--contact-margin-left);
 }
 
 .table-1 {
     width: 289px;
     height: 0px;
-    border: 6px solid #1E1E1E; 
-    margin-top: 15px; 
-    margin-right: 54px;
-    margin-bottom: 31px;
-    margin-left: 42px;  
+    border: 6px solid var(--color-table-1); 
+    margin-top: var(--table-1-margin-top); 
+    margin-right: var(--table-1-margin-right);
+    margin-bottom: var(--table-1-margin-bottom);
+    margin-left: var(--table-1-margin-left);  
 }
 
 
@@ -97,11 +288,11 @@
     font-weight: 600;
     font-size: 24px;
     line-height: 29px;
-    color: #263036;
-    margin-top: 31px; 
-    margin-right: 247px;
-    margin-bottom: 11px;
-    margin-left: 41px;
+    color: var(--color-address-2);
+    margin-top: var(--address-2-margin-top); 
+    margin-right: var(--address-2-margin-right);
+    margin-bottom: var(--address-2-margin-bottom);
+    margin-left: var(--address-2-margin-left);
 }
 
 .address-3 {
@@ -112,11 +303,11 @@
     font-weight: 600;
     font-size: 16px;
     line-height: 19px;
-    color: #263036;
-    margin-top: 11px; 
-    margin-right: 204px;
-    margin-bottom: 36px;
-    margin-left: 40px;
+    color: var(--color-address-3);
+    margin-top: var(--address-3-margin-top);
+    margin-right: var(--address-3-margin-right);
+    margin-bottom: var(--address-3-margin-bottom);
+    margin-left: var(--address-3-margin-left);
 }
 
 .phone-2 {
@@ -127,11 +318,11 @@
     font-weight: 600;
     font-size: 24px;
     line-height: 29px;
-    color: #263036;
-    margin-top: 36px; 
-    margin-right: 270px;
-    margin-bottom: 11px;
-    margin-left: 41px;
+    color: var(--color-phone-2);
+    margin-top: var(--phone-2-margin-top);
+    margin-right: var(--phone-2-margin-right);
+    margin-bottom: var(--phone-2-margin-bottom);
+    margin-left: var(--phone-2-margin-left);
 }
 
 .phone-3 {
@@ -142,11 +333,11 @@
     font-weight: 600;
     font-size: 16px;
     line-height: 19px;
-    color: #263036;
-    margin-top: 11px; 
-    margin-right: 213px;
-    margin-bottom: 36px;
-    margin-left: 40px;
+    color: var(--color-phone-3);
+    margin-top: var(--phone-3-margin-top); 
+    margin-right: var(--phone-3-margin-right); 
+    margin-bottom: var(--phone-3-margin-bottom); 
+    margin-left: var(--phone-3-margin-left); 
 }
 
 .e-mail-2 {
@@ -157,11 +348,11 @@
     font-weight: 600;
     font-size: 24px;
     line-height: 29px;
-    color: #263036;
-    margin-top: 36px; 
-    margin-right: 269px;
-    margin-bottom: 11px;
-    margin-left: 42px;
+    color: var(--color-e-mail-2);
+    margin-top: var(--e-mail-2-margin-top);
+    margin-right: var(--e-mail-2-margin-right);
+    margin-bottom: var(--e-mail-2-margin-bottom);
+    margin-left: var(--e-mail-2-margin-left);
 }
 
 .link {
@@ -172,12 +363,12 @@
     font-weight: 600;
     font-size: 16px;
     line-height: 19px;
-    color: #1C2E8C;
+    color: var(--color-link);
     text-decoration: none;
-    margin-top: 11px; 
-    margin-right: 146px;
-    margin-bottom: 36px;
-    margin-left: 41px;
+    margin-top: var(--link-margin-top);
+    margin-right: var(--link-margin-right);
+    margin-bottom: var(--link-margin-bottom);
+    margin-left: var(--link-margin-left);
 }
 
 .Languages-2 {
@@ -188,21 +379,21 @@
     font-weight: 600;
     font-size: 32px;
     line-height: 39px;
-    color: #263036; 
-    margin-top: 36px; 
-    margin-right: 171px;
-    margin-bottom: 15px;
-    margin-left: 43px;    
+    color: var(--color-Languages-2); 
+    margin-top: var(--Languages-2-margin-top); 
+    margin-right: var(--Languages-2-margin-right);
+    margin-bottom: var(--Languages-2-margin-bottom);
+    margin-left: var(--Languages-2-margin-left);  
 }
 
 .table-2 {
     width: 289px;
     height: 0px;
-    border: 6px solid #1E1E1E; 
-    margin-top: 15px; 
-    margin-right: 52px;
-    margin-bottom: 23px;
-    margin-left: 44px; 
+    border: 6px solid var(--color-table-2); 
+    margin-top: var(--table-2-margin-top); 
+    margin-right: var(--table-2-margin-right); 
+    margin-bottom: var(--table-2-margin-bottom);
+    margin-left: var(--table-2-margin-left); 
 }
 
 .Language-1 {
@@ -213,11 +404,11 @@
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
-    color: #1E1E1E;
-    margin-top: 23px; 
-    margin-right: 204px;
-    margin-bottom: 15px;
-    margin-left: 42px;
+    color: var(--color-Language-1);
+    margin-top: var(--Language-1-margin-top);
+    margin-right: var(--Language-1-margin-right);
+    margin-bottom: var(--Language-1-margin-bottom);
+    margin-left: var(--Language-1-margin-left);
 }
 
 .Language-2 {
@@ -228,11 +419,11 @@
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
-    color: #1E1E1E; 
-    margin-top: 15px; 
-    margin-right: 227px;
-    margin-bottom: 530px;
-    margin-left: 42px;
+    color: var(--color-Language-2); 
+    margin-top: var(--Language-2-margin-top); 
+    margin-right: var(--Language-2-margin-right);
+    margin-bottom: var(--Language-2-margin-bottom);
+    margin-left: var(--Language-2-margin-left);
 }
 
 .Summary-1 {
@@ -243,21 +434,21 @@
     font-weight: 600;
     font-size: 36px;
     line-height: 44px;
-    color: #1E1E1E; 
-    margin-top: 58px;
-    margin-right: 593px;
-    margin-bottom: 28px;
-    margin-left: 55px;
+    color: var(--color-Summary-1); 
+    margin-top: var(--Summary-1-margin-top);
+    margin-right: var(--Summary-1-margin-right);
+    margin-bottom: var(--Summary-1-margin-bottom);
+    margin-left: var(--Summary-1-margin-left);
 }
 
 .table-3 {
     width: 659px;
     height: 0px;
-    border: 5px solid #000000;
-    margin-top: 28px;
-    margin-right: 101px;
-    margin-bottom: 28px;
-    margin-left: 55px;
+    border: 5px solid var(--color-table-3);
+    margin-top: var(--table-3-margin-top);
+    margin-right: var(--table-3-margin-right);
+    margin-bottom: var(--table-3-margin-bottom);
+    margin-left: var(--table-3-margin-left);
 }
 
 .Summary-2 {
@@ -268,11 +459,11 @@
     font-weight: 600;
     font-size: 16px;
     line-height: 19px;
-    color: #263036;
-    margin-top: 28px;
-    margin-right: 54px;
-    margin-bottom: 49px;
-    margin-left: 55px;
+    color: var(--color-Summary-2);
+    margin-top: var(--Summary-1-margin-top);
+    margin-right: var(--Summary-1-margin-right);
+    margin-bottom: var(--Summary-1-margin-bottom);
+    margin-left: var(--Summary-1-margin-left);
 }
 
 .skills-parent {
@@ -282,19 +473,17 @@ display: flex;
 .left-2 {
     display: grid;
     width: 297px;
-    width: 297px;
     height: 84px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 19px;
-    color: #263036;
-    margin-top: 28px;
-    margin-right: 27px;
-    margin-bottom: 49px;
-    margin-left: 55px;
-    
+    color: var(--color-left-2);
+    margin-top: var(--left-2-margin-top);
+    margin-right: var(--left-2-margin-right);
+    margin-bottom: var(--left-2-margin-bottom);
+    margin-left: var(--left-2-margin-left);
 }
 
 .right-2 {
@@ -306,11 +495,11 @@ display: flex;
     font-weight: 600;
     font-size: 16px;
     line-height: 19px;
-    color: #263036;
-    margin-top: 28px;
-    margin-right: 139px;
-    margin-bottom: 49px;
-    margin-left: 27px;
+    color: var(--color-right-2);
+    margin-top: var(--right-2-margin-top);
+    margin-right: var(--right-2-margin-right);
+    margin-bottom: var(--right-2-margin-bottom);
+    margin-left: var(--right-2-margin-left);
     
 }
 
@@ -322,30 +511,30 @@ display: flex;
     font-weight: 600;
     font-size: 36px;
     line-height: 44px;
-    color: #1E1E1E;
-    margin-top: 49px;
-    margin-right: 482px;
-    margin-bottom: 28px;
-    margin-left: 55px;
+    color: var(--color-skills-2);
+    margin-top: var(--skills-2-margin-top);
+    margin-right: var(--skills-2-margin-right);
+    margin-bottom: var(--skills-2-margin-bottom);
+    margin-left: var(--skills-2-margin-left);
 }
 
 .skills-3{
     width: 621px;
     height: 84px;
-    margin-top: 28px;
-    margin-right: 139px;
-    margin-bottom: 49px;
-    margin-left: 27px;
+    margin-top: var(--skills-3-margin-top);
+    margin-right: var(--skills-3-margin-right);
+    margin-bottom: var(--skills-3-margin-bottom);
+    margin-left: var(--skills-3-margin-left);
 }
 
 .table-4 {
     width: 659px;
     height: 0px;
-    border: 5px solid #000000;
-    margin-top: 28px;
-    margin-right: 101px;
-    margin-bottom: 28px;
-    margin-left: 55px;
+    border: 5px solid var(--color-table-4);
+    margin-top: var(--table-4-margin-top);
+    margin-right: var(--table-4-margin-right);
+    margin-bottom: var(--table-4-margin-bottom);
+    margin-left: var(--table-4-margin-left);
 }
 
 .Education {
@@ -356,21 +545,21 @@ display: flex;
     font-weight: 600;
     font-size: 36px;
     line-height: 44px;
-    color: #1E1E1E;
-    margin-top: 53px;
-    margin-right: 585px;
-    margin-bottom: 28px;
-    margin-left: 55px;
+    color: var(--color-Education);
+    margin-top: var(--Education-margin-top);
+    margin-right: var(--Education-margin-right);
+    margin-bottom:  var(--Education-margin-bottom);
+    margin-left: var(--Education-margin-left);
 }
 
 .table-5 {
     width: 659px;
     height: 0px;
-    border: 5px solid #000000;
-    margin-top: 28px;
-    margin-right: 101px;
-    margin-bottom: 28px;
-    margin-left: 55px;
+    border: 5px solid var(--color-table-5);
+    margin-top: var(--table-5-margin-top);
+    margin-right: var(--table-5-margin-right);
+    margin-bottom: var(--table-5-margin-bottom);
+    margin-left: var(--table-5-margin-left);
 }
 
 .Education-2 {
@@ -381,11 +570,138 @@ display: flex;
     font-weight: 600;
     font-size: 16px;
     line-height: 19px;
-    color: #263036;  
-    margin-top: 28px;
-    margin-right: 201px;
-    margin-bottom: 549px;
-    margin-left: 55px; 
+    color: var(--color-Education-2);  
+    margin-top: var(--Education-2-margin-top);
+    margin-right: var(--Education-2-margin-right);
+    margin-bottom: var(--Education-2-margin-bottom);
+    margin-left: var(--Education-2-margin-left);
 }
 
+.link-2 {
+    color: #00f;
+    text-decoration: underline;
+}
 
+.link-2:hover {
+    text-decoration: none;
+}
+
+.link-2:visited {
+    color: #005;
+    text-decoration: underline;
+}
+
+.Work-Experience {
+    width: 706px;
+    height: 392px;
+  }
+  
+  .Work {
+    width: 295px;
+    height: 44px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: var(--color-Work);
+    margin-top: var(--Work-margin-top);
+    margin-left: var(--Work-margin-left);
+    margin-bottom: var(--Work-margin-bottom);
+    margin-right: var(--Work-margin-right);
+  }
+  
+  .table-6 {
+    width: 659px;
+    height: 0px;
+    border: 5px solid var(--color-table-6);
+    margin-top: var(--table-6-margin-top);
+    margin-left: var(--table-6-margin-left);
+    margin-bottom: var(--table-6-margin-bottom);
+    margin-right: var(--table-6-margin-right);
+  }
+  
+  .WE1 {
+    width: 706px;
+    height: 133px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--color-WE1);
+    margin-top: var(--WE1-margin-top);
+    margin-left: var(--WE1-margin-left);
+    margin-bottom: var(--WE1-margin-bottom);
+    margin-right: var(--WE1-margin-right);
+  }
+  
+  .WE2 {
+    width: 706px;
+    height: 141px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--color-WE2);
+    margin-top: var(--WE2-margin-top);
+    margin-left: var(--WE2-margin-left);
+    margin-bottom: var(--WE2-margin-bottom);
+    margin-right: var(--WE2-margin-right);
+  }
+
+  .Name-2 {
+    font-size: 16px;
+    font-style: 600;
+  }
+  
+  .Dates-2 {
+    font-size: 16px;
+    font-style: 600;
+  }
+  
+  .Job-2 {
+    font-size: 16px;
+    font-style: 600;
+  }
+  
+  .Project-2 {
+    font-size: 16px;
+    font-style: 600;
+  }
+
+  .Name {
+    font-size: 16px;
+    font-style: 600;
+  }
+  
+  .Dates-1 {
+    font-size: 16px;
+    font-style: 600;
+  }
+  
+  .Job-1 {
+    font-size: 16px;
+    font-style: 600;
+  }
+  
+  .Project-1 {
+    font-size: 16px;
+    font-style: 600;
+  }
+
+  .Name-3 {
+    font-size: 16px;
+    font-style: 600;
+  }
+  
+  .Dates {
+    font-size: 16px;
+    font-style: 600;
+  }
+
+  .Work-Experience {
+    width: 706px;
+    height: 392px;
+  }
