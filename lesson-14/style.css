@@ -1,3 +1,4 @@
+
 :root{
     /* colors */
     --color-main-left: #86A3B4;
@@ -10,6 +11,7 @@
     --color-table-3:#000000;
     --color-table-4:#000000;
     --color-table-5:#000000;
+    --color-table-6:#000000;
     --color-address-2: #263036;
     --color-address-3: #263036;
     --color-phone-2: #263036;
@@ -26,6 +28,9 @@
     --color-skills-2:#1E1E1E;
     --color-Education:#1E1E1E; 
     --color-Education-2:#263036;
+    --color-WE1:#000000;
+    --color-WE2:#000000;
+    --color-Head:#1e1e1e;
 
     /* retreat */
 
@@ -69,6 +74,11 @@
     --table-5-margin-right: 101px;
     --table-5-margin-bottom: 28px;
     --table-5-margin-left: 55px;
+
+    --table-6-margin-top: 28px;
+    --table-6-margin-right: 101px;
+    --table-6-margin-bottom: 31px;
+    --table-6-margin-left: 55px;
 
     --address-2-margin-top: 31px; 
     --address-2-margin-right: 247px;
@@ -154,6 +164,21 @@
     --Education-2-margin-right: 201px;
     --Education-2-margin-bottom: 549px;
     --Education-2-margin-left: 55px; 
+
+    --Work-margin-top:  49px;
+    --Work-margin-right: 465px;
+    --Work-margin-bottom: 28px;
+    --Work-margin-left: 55px; 
+
+    --WE1-margin-top: 31px;
+    --WE1-margin-left: 55px;
+    --WE1-margin-bottom: 15px;
+    --WE1-margin-right: 54px;
+
+    --WE2-margin-top: 15px;
+    --WE2-margin-left: 55px;
+    --WE2-margin-bottom: 53px;
+    --WE2-margin-right: 54px;
 }
 
 .main-theme .left {
@@ -177,14 +202,12 @@
 
 
 .left{
-    display: grid;
     width: 385px;
     height: 1667px;
     background: var(--color-main-left);
 }
 
 .right {
-    display: grid;
     width: 1200px;
     height: 1667px;
     background: var(--color-main-right);
@@ -568,3 +591,118 @@ display: flex;
     color: #005;
     text-decoration: underline;
 }
+
+.Work-Experience {
+    width: 706px;
+    height: 392px;
+  }
+  
+  .Work {
+    width: 295px;
+    height: 44px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: var(--color-Work);
+    margin-top: var(--Work-margin-top);
+    margin-left: var(--Work-margin-left);
+    margin-bottom: var(--Work-margin-bottom);
+    margin-right: var(--Work-margin-right);
+  }
+  
+  .table-6 {
+    width: 659px;
+    height: 0px;
+    border: 5px solid var(--color-table-6);
+    margin-top: var(--table-6-margin-top);
+    margin-left: var(--table-6-margin-left);
+    margin-bottom: var(--table-6-margin-bottom);
+    margin-right: var(--table-6-margin-right);
+  }
+  
+  .WE1 {
+    width: 706px;
+    height: 133px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--color-WE1);
+    margin-top: var(--WE1-margin-top);
+    margin-left: var(--WE1-margin-left);
+    margin-bottom: var(--WE1-margin-bottom);
+    margin-right: var(--WE1-margin-right);
+  }
+  
+  .WE2 {
+    width: 706px;
+    height: 141px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--color-WE2);
+    margin-top: var(--WE2-margin-top);
+    margin-left: var(--WE2-margin-left);
+    margin-bottom: var(--WE2-margin-bottom);
+    margin-right: var(--WE2-margin-right);
+  }
+
+  .Name-2 {
+    font-size: 16px;
+    font-style: 600;
+  }
+  
+  .Dates-2 {
+    font-size: 16px;
+    font-style: 600;
+  }
+  
+  .Job-2 {
+    font-size: 16px;
+    font-style: 600;
+  }
+  
+  .Project-2 {
+    font-size: 16px;
+    font-style: 600;
+  }
+
+  .Name {
+    font-size: 16px;
+    font-style: 600;
+  }
+  
+  .Dates-1 {
+    font-size: 16px;
+    font-style: 600;
+  }
+  
+  .Job-1 {
+    font-size: 16px;
+    font-style: 600;
+  }
+  
+  .Project-1 {
+    font-size: 16px;
+    font-style: 600;
+  }
+
+  .Name-3 {
+    font-size: 16px;
+    font-style: 600;
+  }
+  
+  .Dates {
+    font-size: 16px;
+    font-style: 600;
+  }
+
+  .Work-Experience {
+    width: 706px;
+    height: 392px;
+  }
