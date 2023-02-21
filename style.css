@@ -1,26 +1,40 @@
-.all {
-  animation: all-blocks 5s; 
-  animation-fill-mode: 
+.form {
+  animation: form-block 5s; 
+  position: fixed;
 }
 
-@keyframes all-blocks {
+@keyframes form-block {
   from {
     transform: scale(200%);
+  
   }
   to {
-    position: fixed;
-    top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  
+  position: fixed;
   }
 }
 
 .header {
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-bottom: 79,9%;
+  animation: header-block 5s;
   position: fixed;
 }
+
+@keyframes header-block {
+  from {
+    transform: scale(200%);
+  
+  }
+  to {
+  position: fixed;
+  }
+}
+
+
+
+
+
 
 input,
 select,
@@ -111,11 +125,27 @@ select[type="checkbox"]:valid {
 .Hire-me {
   font-size: xx-large;
   font-weight: 600;
+  margin-top: 40px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  margin-right: 83vh;
 }
 
 .Contact {
-  font-size: large;
+  font-size: x-large;
   font-weight: 600;
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-bottom: 15px;
+  margin-right: 73vh;
+}
+
+.table {
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-bottom: 79,9%;
+  margin-right: 75vh;
+
 }
 
 .th-1 {

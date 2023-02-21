@@ -18,7 +18,7 @@
   animation: blocks 0.5s linear;
 }
 
-@keyframes blocks {
+@keyframes block {
   0% {
     margin-top: 50vh;
     opacity: 0;
@@ -69,7 +69,7 @@
 .photo {
   width: 385px;
   height: 292px;
-  margin-top: 36px;
+
   margin-right: 0px;
   margin-bottom: 50px;
   margin-left: 0px;
@@ -201,6 +201,37 @@
   margin-right: 146px;
   margin-bottom: 36px;
   margin-left: 41px;
+}
+
+.Linkedin {
+width: 98px;
+height: 29px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+color: #263036;
+margin-top: 36px;
+margin-right: 245px;
+margin-bottom: 11px;
+margin-left: 42px;
+}
+
+.link-2 {
+width: 333px;
+height: 19px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+color: #1C2E8C;
+margin-top: 11px;
+margin-right: 11px;
+margin-bottom: 36px;
+margin-left: 41px;
+
 }
 
 .Languages-2 {
@@ -356,7 +387,7 @@
   margin-top: 28px;
   margin-right: 139px;
   margin-bottom: 49px;
-  margin-left: 27px;
+  margin-left: 55px;
 }
 
 .table-4 {
@@ -383,7 +414,7 @@
   font-size: 36px;
   line-height: 44px;
   color: #1e1e1e;
-  margin-top: 49px;
+  margin-top: 75px;
   margin-left: 55px;
   margin-bottom: 28px;
   margin-right: 465px;
@@ -404,7 +435,7 @@
   height: 133px;
   font-family: "Inter";
   font-style: normal;
-  font-weight: 600;
+  font-weight: 300;
   font-size: 14px;
   line-height: 17px;
   color: #000000;
@@ -439,7 +470,7 @@
   height: 141px;
   font-family: "Inter";
   font-style: normal;
-  font-weight: 600;
+  font-weight: 300;
   font-size: 14px;
   line-height: 17px;
   color: #000000;
@@ -521,7 +552,7 @@
   height: 57px;
   font-family: "Inter";
   font-style: normal;
-  font-weight: 600;
+  font-weight: 300;
   font-size: 16px;
   line-height: 19px;
   color: #263036;
