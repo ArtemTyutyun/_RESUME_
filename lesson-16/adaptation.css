@@ -18,9 +18,27 @@
   .right {
     width: 385px;
     height: 1500px;
-    
   }
 }
+
+@media only screen and (max-width: 550px) {
+  .Linkedin {
+    margin-top: 36px;
+    margin-right: 255px;
+    margin-bottom: 11px;
+    margin-left: 32px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .link-2 {
+    margin-top: 11px;
+    margin-right: 21px;
+    margin-bottom: 35px;
+    margin-left: 31px;
+  }
+}
+
 
 @media only screen and (max-width: 550px) {
   .name-1 {
