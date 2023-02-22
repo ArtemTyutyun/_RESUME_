@@ -1,5 +1,5 @@
 .all {
-    position: fixed;
+  position: fixed;
 }
 
 input,
@@ -103,7 +103,7 @@ select[type="checkbox"]:valid {
 }
 
 select {
-  background: url("./photo.png") no-repeat center right;
+  background: url("./check mark.png") no-repeat center right 5px;
 }
 
 .legend {
@@ -145,7 +145,7 @@ input[type="submit"] {
 .header {
   margin-top: 20px;
   margin-left: 5px;
-  margin-bottom: 79,9%;
+  margin-bottom: 79, 9%;
   position: fixed;
 }
 
@@ -246,6 +246,7 @@ input[type="submit"] {
 select[type="checkbox"] {
   margin-top: 27px;
   margin-left: -80px;
+  padding: 3px;
 }
 
 select[type="checkbox"]:valid ~ .success-3 {
@@ -273,5 +274,5 @@ select[type="checkbox"]:valid ~ .success-3 {
 }
 
 .Description-2:active {
-  border-color: rgb(117, 200, 233);
+  border-color: lightblue;
 }
