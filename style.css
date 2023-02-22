@@ -145,7 +145,7 @@ input[type="submit"] {
 .header {
   margin-top: 20px;
   margin-left: 5px;
-  margin-bottom: 79, 9%;
+  margin-bottom: 79,9%;
   position: fixed;
 }
 
@@ -273,5 +273,5 @@ select[type="checkbox"]:valid ~ .success-3 {
 }
 
 .Description-2:active {
-  border-color: skyblue;
+  border-color: rgb(117, 200, 233);
 }
