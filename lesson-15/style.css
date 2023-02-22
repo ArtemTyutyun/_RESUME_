@@ -2,34 +2,50 @@
     /* colors */
     --color-main-left: #86A3B4;
     --color-main-right: #FFFFFF;
+
     --color-name-1: #FFFFFF;
     --color-name-2: #1C2E8C;
+
     --color-contact: #263036;
+
     --color-table-1: #1E1E1E; 
     --color-table-2:#1E1E1E;
     --color-table-3:#000000;
     --color-table-4:#000000;
     --color-table-5:#000000;
     --color-table-6:#000000;
+
     --color-address-2: #263036;
     --color-address-3: #263036;
+
     --color-phone-2: #263036;
     --color-phone-3: #263036;
+
     --color-e-mail-2: #263036;
+
     --color-link: #1C2E8C;
+    --color-link-2: #1C2E8C;
+    --color-link-5: #00f;
+    --color-link-5-visited: #005;
+
     --color-Languages-2:#263036; 
     --color-Language-1:#1E1E1E; 
     --color-Language-2:#1E1E1E; 
+
     --color-Summary-1: #1E1E1E;
     --color-Summary-2:#263036;
+
     --color-left-2:#263036;
     --color-right-2:#263036;
+
     --color-skills-2:#1E1E1E;
+
     --color-Education:#1E1E1E; 
     --color-Education-2:#263036;
+
+    --color-Head:#1e1e1e;
     --color-WE1:#000000;
     --color-WE2:#000000;
-    --color-Head:#1e1e1e;
 
     /* retreat */
 
@@ -178,6 +194,16 @@
     --WE2-margin-left: 55px;
     --WE2-margin-bottom: 53px;
     --WE2-margin-right: 54px;
+
+    --Linkedin-margin-top: 36px;
+    --Linkedin-margin-right: 245px;
+    --Linkedin-margin-bottom: 11px;
+    --Linkedin-margin-left: 42px;
+
+    --link-2-margin-top: 11px;
+    --link-2-margin-right: 11px;
+    --link-2-margin-bottom: 36px;
+    --link-2-margin-left: 41px;
 }
 
 .main-theme .left {
@@ -471,7 +497,6 @@ display: flex;
 }
 
 .left-2 {
-    display: grid;
     width: 297px;
     height: 84px;
     font-family: 'Inter';
@@ -487,7 +512,6 @@ display: flex;
 }
 
 .right-2 {
-    display: grid;
     width: 297px;
     height: 84px;
     font-family: 'Inter';
@@ -500,7 +524,6 @@ display: flex;
     margin-right: var(--right-2-margin-right);
     margin-bottom: var(--right-2-margin-bottom);
     margin-left: var(--right-2-margin-left);
-    
 }
 
 .skills-2 {
@@ -567,7 +590,7 @@ display: flex;
     height: 57px;
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 300;
     font-size: 16px;
     line-height: 19px;
     color: var(--color-Education-2);  
@@ -575,20 +598,6 @@ display: flex;
     margin-right: var(--Education-2-margin-right);
     margin-bottom: var(--Education-2-margin-bottom);
     margin-left: var(--Education-2-margin-left);
-}
-
-.link-2 {
-    color: #00f;
-    text-decoration: underline;
-}
-
-.link-2:hover {
-    text-decoration: none;
-}
-
-.link-2:visited {
-    color: #005;
-    text-decoration: underline;
 }
 
 .Work-Experience {
@@ -626,7 +635,7 @@ display: flex;
     height: 133px;
     font-family: "Inter";
     font-style: normal;
-    font-weight: 600;
+    font-weight: 300;
     font-size: 14px;
     line-height: 17px;
     color: var(--color-WE1);
@@ -641,7 +650,7 @@ display: flex;
     height: 141px;
     font-family: "Inter";
     font-style: normal;
-    font-weight: 600;
+    font-weight: 300;
     font-size: 14px;
     line-height: 17px;
     color: var(--color-WE2);
@@ -705,3 +714,48 @@ display: flex;
     width: 706px;
     height: 392px;
   }
+
+  .Linkedin {
+    width: 98px;
+    height: 29px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #263036;
+    margin-top: var(--Linkedin-margin-top);
+    margin-right: var(--Linkedin-margin-right);
+    margin-bottom: var(--Linkedin-margin-bottom);
+    margin-left: var(--Linkedin-margin-left);
+    }
+    
+    .link-2 {
+    width: 333px;
+    height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--color-link-2);
+    margin-top: var(--link-2-margin-top);
+    margin-right: var(--link-2-margin-right);
+    margin-bottom: var(--link-2-margin-bottom);
+    margin-left: var(--link-2-margin-left);
+    text-decoration: none;
+    }
+
+    .link-5 {
+        color: var(--color-link-5);
+        text-decoration: underline;
+    }
+    
+    .link-5:hover {
+        text-decoration: none;
+    }
+    
+    .link-5:visited {
+        color: var(--color-link-5-visited);
+        text-decoration: underline;
+    }
