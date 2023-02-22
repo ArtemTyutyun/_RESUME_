@@ -56,10 +56,6 @@
 .photo {
     width: 385px;
     height: 292px;
-    margin-top: 36px; 
-    margin-right: 0px;
-    margin-bottom: 50px;
-    margin-left: 0px;
 }
 
 .Contact {
@@ -381,7 +377,7 @@ display: flex;
     height: 57px;
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 300;
     font-size: 16px;
     line-height: 19px;
     color: #263036;  
@@ -520,7 +516,7 @@ display: flex;
     height: 133px;
     font-family: "Inter";
     font-style: normal;
-    font-weight: 600;
+    font-weight: 300;
     font-size: 14px;
     line-height: 17px;
     color: #000000;
@@ -535,7 +531,7 @@ display: flex;
     height: 141px;
     font-family: "Inter";
     font-style: normal;
-    font-weight: 600;
+    font-weight: 300;
     font-size: 14px;
     line-height: 17px;
     color: #000000;
@@ -544,3 +540,48 @@ display: flex;
     margin-bottom: 53px;
     margin-right: 54px;
   }
+
+  .Linkedin {
+    width: 98px;
+    height: 29px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #263036;
+    margin-top: 36px;
+    margin-right: 245px;
+    margin-bottom: 11px;
+    margin-left: 42px;
+    }
+    
+    .link-2 {
+    width: 333px;
+    height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1C2E8C;
+    margin-top: 11px;
+    margin-right: 11px;
+    margin-bottom: 36px;
+    margin-left: 41px;
+    text-decoration: none;
+    }
+
+    .link-5 {
+        color: #00f;
+        text-decoration: underline;
+    }
+    
+    .link-5:hover {
+        text-decoration: none;
+    }
+    
+    .link-5:visited {
+        color: #005;
+        text-decoration: underline;
+    }
