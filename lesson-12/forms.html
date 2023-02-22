@@ -7,6 +7,8 @@
 <link rel="stylesheet" href="/style.css">
 <script src="/main.js"></script>
 
+<div class="all">
+<div class="header">
 <header>
 <h1 class="Hire-me">Hire me</h1>
 <h3 class="Contact">Contact information</h3>
@@ -30,6 +32,7 @@
        </table>
        </section>
       </tbody>
+    </div>
 
 
      <tfoot>
@@ -39,7 +42,7 @@
         <form action="forms.html" method="get">
        <label class="e-mail" for="message">
         <div class="form-2">
-        E-mail: <br /><input id="message" class="message" type="text" required name="E-mail" placeholder="Enter the e-mail" minlength="10" maxlength="25"/> 
+        <strong class="E-mail">E-mail:</strong> <br /><input id="message" class="message" type="text" required name="E-mail" placeholder="Enter the e-mail" minlength="10" maxlength="25"/> 
       </label>
       <p class="error">Error message</p>
       <p class="success">Success message</p>
@@ -57,7 +60,7 @@
 
 
     <label class="work-type" for="message-2">
-      Work type:
+      <strong class="Work--type">Work type:</strong>
      <select type="checkbox" name="Work type" required id="message-2" class="message-2">
      <option></option>
     <option value="office">Work in the office</option>
@@ -65,7 +68,6 @@
     <option value="One-time project">One-time project</option>
      </select>
      </label>
-     <p class="error-3">Error message</p>
     <p class="success-3">Success message</p>
 
      
@@ -80,4 +82,5 @@
 </main>
 
 </body>
+</div>
 </html>
