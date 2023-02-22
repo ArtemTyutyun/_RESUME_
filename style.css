@@ -1,0 +1,278 @@
+.all {
+  position: fixed;
+}
+
+input,
+select,
+textarea {
+  appearance: none;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+input,
+select,
+textarea {
+  border: 2px solid #333;
+  border-radius: 14px;
+}
+
+table,
+th,
+td {
+  padding: 7px;
+  border-collapse: collapse;
+  border: 2px solid #333;
+}
+
+input[type="text"] {
+  cursor: text;
+}
+
+textarea {
+  cursor: text;
+}
+
+input[type="submit"] {
+  color: white;
+  background-color: blue;
+  cursor: pointer;
+}
+
+input[type="submit"]:enabled {
+  color: white;
+  background-color: blue;
+}
+
+input[type="submit"]:hover {
+  color: white;
+  background-color: darkblue;
+}
+
+input[type="submit"]:disabled {
+  color: white;
+  background-color: cornflowerblue;
+}
+
+.form {
+  max-width: 1024px;
+  height: auto;
+}
+
+input[type="text"]:invalid {
+  border-color: red;
+}
+
+input[type="text"]:valid {
+  border-color: green;
+}
+
+select[type="checkbox"] {
+  cursor: pointer;
+  width: 150px;
+}
+
+select[type="checkbox"]:invalid {
+  border-color: red;
+}
+
+select[type="checkbox"]:valid {
+  border-color: green;
+}
+
+.Hire-me {
+  font-size: xx-large;
+  font-weight: 600;
+}
+
+.Contact {
+  font-size: large;
+  font-weight: 600;
+}
+
+.th-1 {
+  font-size: large;
+  font-weight: 600;
+}
+
+.th-2 {
+  font-size: large;
+  font-weight: 600;
+}
+
+select {
+  background: url("./check mark.png") no-repeat center right 5px;
+}
+
+.legend {
+  text-align: center;
+  font-size: large;
+  font-weight: 300;
+}
+
+.E-mail {
+  font-size: large;
+  font-weight: 300;
+}
+
+.Description {
+  margin-bottom: -8px;
+  font-size: large;
+  font-weight: 300;
+}
+
+.Work--type {
+  font-size: large;
+  font-weight: 300;
+}
+
+textarea:invalid {
+  border-color: red;
+}
+
+textarea[type="checkbox"]:valid {
+  border-color: green;
+}
+
+label,
+textarea,
+input[type="submit"] {
+  display: flex;
+}
+
+.header {
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-bottom: 79, 9%;
+  position: fixed;
+}
+
+.form {
+  position: fixed;
+  padding: 50px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.message:invalid + .error {
+  display: block;
+}
+
+.error {
+  display: none;
+  color: red;
+  margin-top: 1px;
+  margin-left: 3px;
+  margin-bottom: -3px;
+  font-size: 100%;
+  font-weight: 300;
+}
+
+.message:valid ~ .success {
+  display: block;
+}
+
+.message:valid {
+  margin-bottom: 34px;
+}
+
+.success {
+  display: none;
+  color: green;
+  margin-top: -33px;
+  margin-bottom: -3px;
+  font-size: 100%;
+  font-weight: 300;
+  font-size: 100%;
+  font-weight: 300;
+}
+
+.Description-2:invalid + .error-2 {
+  display: block;
+}
+
+.error-2 {
+  display: none;
+  color: red;
+  margin-bottom: 30px;
+  margin-top: 1px;
+  font-size: 100%;
+  font-weight: 300;
+}
+
+.Description-2:valid ~ .success-2 {
+  display: block;
+}
+
+.success-2 {
+  display: none;
+  color: green;
+  margin-top: -11px;
+  margin-bottom: -7px;
+  font-size: 100%;
+  font-weight: 300;
+}
+
+.Description-2:valid {
+  margin-bottom: 49px;
+}
+
+.result {
+  width: 95%;
+  text-align: right;
+  margin-top: -70px;
+  padding-right: 10px;
+  color: #333;
+}
+
+.Description-2 {
+  margin-bottom: 0px;
+}
+
+.message {
+  margin-top: 8px;
+}
+
+.work-type {
+  margin-top: 7px;
+  margin-bottom: 30px;
+}
+
+select[type="checkbox"] {
+  margin-top: 27px;
+  margin-left: -80px;
+  padding: 3px;
+}
+
+select[type="checkbox"]:valid ~ .success-3 {
+  display: block;
+}
+
+.success-3 {
+  display: none;
+  color: green;
+  margin-top: -28px;
+  margin-bottom: 10px;
+  font-size: 100%;
+  font-weight: 300;
+}
+
+.submit-2 {
+  margin-top: -15px;
+  padding: 3px;
+  font-size: small;
+  font-weight: 300;
+}
+
+.Description-2:valid {
+  border-color: green;
+}
+
+.Description-2:active {
+  border-color: lightblue;
+}
