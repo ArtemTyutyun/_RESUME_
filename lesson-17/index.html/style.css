@@ -18,7 +18,7 @@
   animation: blocks 0.5s linear;
 }
 
-@keyframes block {
+@keyframes blocks {
   0% {
     margin-top: 50vh;
     opacity: 0;
