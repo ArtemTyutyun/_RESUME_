@@ -1,0 +1,12 @@
+
+$color-my-theme-left: #0fcaca;
+$color-my-theme-right: #a39c9c;
+
+
+.my-theme .left {
+    background:  $color-my-theme-left;
+}
+
+.my-theme .right {
+    background: $color-my-theme-right;
+}
